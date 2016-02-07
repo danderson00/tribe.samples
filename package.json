@@ -1,0 +1,28 @@
+{
+    "name": "tribe.samples",
+    "version": "0.4.2",
+    "description": "Samples for the tribe platform.",
+    "dependencies": {
+        "tribe": "^0.4.2"
+    },
+    "homepage": "http://github.com/danderson00/tribe.samples",
+    "author": {
+      "name": "Dale Anderson",
+      "email": "tribejs@gmail.com",
+      "url": "https://github.com/danderson00"
+    },
+    "keywords": [
+      "tribe",
+      "web",
+      "mobile",
+      "distributed",
+      "storage",
+      "sqlite",
+      "indexeddb"
+    ],
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/danderson00/tribe.samples.git"
+    }
+}
