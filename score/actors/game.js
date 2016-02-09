@@ -3,7 +3,8 @@ require('tribe').register.actor(function (actor) {
 
     this.lead = actor.envelopes.lead().asScalar()
 
-    // publish a game.won message when a player has at least 3 points and is at least 2 points ahead of the opposition
+    // publish a game.won message when a player has
+    // 3 or more points and a lead of 2 or more points
     actor.envelopes.players()
         .forEach(player => player.points()
             .when(points => points >= 3 && this.lead() >= 2)
